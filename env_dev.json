@@ -1,0 +1,17 @@
+{
+    "aws": {
+        "region": "region",
+        "access_key": "access_key",
+        "secret_key": "secret_key"
+    },
+    "sqs": {
+        "listener": {
+            "enabled": false,
+            "sqs_name": "listener_local",
+            "workers": 1,
+            "sleep": 10,
+            "log_activity": false,
+            "number_of_messages": 10
+        }
+    }
+}
